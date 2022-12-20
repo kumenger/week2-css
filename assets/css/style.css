@@ -1,7 +1,50 @@
-*{
-    background-color: bisque;
+header {
+    position: fixed;
+    background-color: black;
+    border: solid 2px brown;
+    text-align: center;
+    color: aqua;
+    width: auto;
+    height: 100px;
+    width: 100%;
+    
+    
 }
-img{
-    width: 10%;
-    height: 10%;
+
+.imghold {
+    padding-top: 140px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+h1,
+h3 {
+    text-align: center;
+    color: aqua;
+}
+input,textarea{
+    display: block;
+    width: 100%; 
+}
+.contactinfo{
+    width: 20%;
+    margin: auto;
+    padding: 5px;
+    background-color: black;
+    padding: 20px;
+    color: wheat;
+    text-align: center;
+   
+}
+textarea{
+   
+    height: 200px;
+}
+body{
+  text-align: center;
 }
